@@ -37,3 +37,11 @@ python3 scripts/package_clients.py
 ```
 
 产物写入本地 dist/。客户端安装方式和包格式见[接入说明](clients/README.md)。四个来源的基线、保留范围和合并规则见[迁移记录](docs/migration.md)。
+
+## 行业插件与交付手册
+
+[Codex 多场景插件](plugins/codex-deepseek/README.md)覆盖编程、金融、法律、写作和短剧。它有独立插件清单、项目安装器、场景规则、领域 Skills 和本地验证脚本。根目录的 15 个研发 Skills 继续供多客户端共用。
+
+新业务仓库可按[接入与质量门禁](docs/project-onboarding.md)登记验证命令。准备上线时使用[发布与回滚手册](docs/release-and-rollback.md)。
+
+各项能力的验证范围见[核心能力复核](docs/capability-review.md)。

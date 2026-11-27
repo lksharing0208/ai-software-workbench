@@ -1,0 +1,7 @@
+{
+  "name": "codex-deepseek-workbench",
+  "version": "1.0.0",
+  "description": "覆盖编程、金融、法律、写作和短剧的 Codex 场景插件。",
+  "skills": "./.agents/skills/",
+  "mcpServers": "./examples/github-mcp.example.json"
+}

@@ -16,3 +16,5 @@ Claude Code 安装入口
 ```
 
 [DeepSeek provider](codex/deepseek-provider.example.toml) 与 [GitHub MCP](codex/github-mcp.example.json) 为源项目配置示例。实际模型 ID、传输协议和认证由使用方根据当前运行环境确认。启用连接前单独验证能否读取指定文件。工作台提供指令与配置，模型调用、委派和远端写入由已授权的客户端执行。
+
+Codex 的五类行业场景、安装命令及现有项目冲突处理见[多场景插件](../plugins/codex-deepseek/README.md)。
