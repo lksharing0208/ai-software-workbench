@@ -1,0 +1,5 @@
+{
+  "name": "ai-software-workbench",
+  "owner": {"name": "lksharing0208"},
+  "plugins": [{"name": "ai-software-workbench", "source": "./", "description": "软件工程研发工作台"}]
+}
